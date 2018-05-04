@@ -99,7 +99,7 @@ while True:
                         A = client.getGroup(op.param1)
                         A.preventedJoinByTicket = False
                         client.updateGroup(A)
-            if op.type == 25:
+            if op.type == 26:
                 msg = op.message
                 text = msg.text
                 msg_id = msg.id
